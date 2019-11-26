@@ -17,6 +17,10 @@
             <div class="banner banner__second"></div>
         </div>
     </section>
+    <section class="ArrayCalculator">
+        <?php include ('calculator.php');
+        ?>
+    </section>
 </main>
 </body>
 </html>
