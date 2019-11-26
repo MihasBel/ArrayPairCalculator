@@ -1,0 +1,42 @@
+body {
+    width: 100%;
+    margin: 0;
+    background-color: burlywood;
+}
+.banners {
+    display: flex;
+
+    background-color: coral;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px 0;
+}
+.banners_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.banners_title {
+
+    font-size: 25px;
+    border: 2px solid burlywood;
+    border-radius: 2px;
+    padding: 2px;
+    color: #694d34;
+}
+.banner{
+    background-color: black;
+    width: 200px;
+    height: 100px;
+
+}
+.banner__first {
+    background: url("img/test.jpg")  no-repeat;
+    background-size: cover;
+}
+.banner__second {
+    background: url("img/test.jpg")  no-repeat;
+    background-size: 100% 100%;
+}
