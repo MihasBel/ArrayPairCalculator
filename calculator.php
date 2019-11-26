@@ -1,14 +1,22 @@
 <?php
-$arr = array(1, 1, 2, 3, 4, -51, 12, 12, 12, -51);
+$arr = explode(",",$_POST[arr]);
+echo print_r($arr);
 $pair = 0;
-for ($i = 0; $i <= count($arr); $i++) {
+if (isset($arr[1])) {
+    for ($i = 0; $i <= count($arr); $i++) {
 
 
-    if ($arr[$i] == $arr[$i-1]) {
-        $pair++;
+        if ($arr[$i] == $arr[$i - 1]) {
+            $pair++;
+        }
+
+
     }
-
-
+    echo "<p class='array-calculator_result'>количество последовательных пар = $pair</p>";
+} else {
+    echo "<p class='array-calculator_result'>только для массивов с более 2 членов</p>";
 }
- echo "количество последовательных пар = $pair";
+
+
+
 ?>
