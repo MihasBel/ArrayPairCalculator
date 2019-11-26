@@ -17,7 +17,8 @@
             <div class="banner banner__second"></div>
         </div>
     </section>
-    <section class="ArrayCalculator">
+    <section class="arrayCalculator">
+        <h2>Вывод количества пар для массива</h2>
         <?php include ('calculator.php');
         ?>
     </section>

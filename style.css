@@ -40,3 +40,7 @@ body {
     background: url("img/test.jpg")  no-repeat;
     background-size: 100% 100%;
 }
+.arrayCalculator {
+    color: #683429;
+    padding-left: 50px;
+}
